@@ -1,1 +1,206 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 100%;
+  float: left;
+  padding-right: 200px;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-list {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s;
+  height: 80px;
+}
+
+.header-list:hover {
+  background-color: rgba(34,49,52,0.1);
+  color: #808080;
+}
+
+.header-list li {
+  line-height: 80px;
+  padding: 0 25px;
+  color: #000;
+  display: block;
+}
+
+.top-wrapper {
+  padding: 130px 0 100px 0;
+  text-align: center;
+  height: 100px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main h1{
+  letter-spacing: 3px;
+  font-size: 40px;
+  margin-top: 45px;
+  margin-bottom: 8px;
+}
+
+.menu {
+  text-align: center;
+  display: inline-block;
+}
+
+.menu:hover {
+  color: rgba(34,49,52,0.6);
+  transition: all 0.5s;
+}
+
+.menu li {
+  font-size: 15px;
+  float: left;
+  padding: 0 40px;
+}
+
+.alt1 {
+  border-right: 1px solid black;
+}
+
+.hometown {
+  float: center;
+  width: 100%;
+}
+
+.message-wrapper {
+  padding: 40px 0 80px 0;
+  text-align: center;
+  height: 1200px;
+}
+
+.menu-title {
+  padding-top: 60px;
+}
+
+.menu-title h1 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.main-title {
+  margin: 36px 0 90px 0;
+}
+
+.main-title a {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.main-title h2 {
+  font-size: 15px;
+}
+
+.orner1 {
+  width: 1000px;
+  text-align: left;
+  display: inline-block;
+  padding-bottom: 120px;
+}
+
+.orner1-pic {
+  float: right;
+  padding: 0 40px 700px 50px;
+}
+
+.main1-text{
+  padding-left: 50px;
+}
+
+.main1-text p{
+  font-size: 18px;
+}
+
+.main1-text a {
+  letter-spacing: 3px;
+}
+
+.main2-text{
+  padding: 80px 0 0 50px;
+}
+
+.main2-text p{
+  font-size: 18px;
+}
+
+.main2-text a {
+  letter-spacing: 3px;
+}
+
+.orner-name {
+  padding: 70px 0 30px 50px;
+}
+
+.orner-name h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 6px;
+}
+
+.orner-name h2 {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: black;
+  height: 70px;
+  padding: 25px;
+  color: white;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 35px;
+  padding: 15px;
+  letter-spacing: 1.5px;
+}
+
+.footer-list {
+  float: right;
+  transition: all 0.5s;
+}
+
+.footer-list:hover {
+  background-color: rgba(34,49,52,0.1);
+  color: #808080;
+}
+
+.footer-list li {
+  padding: 30px;
+}
 
